@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="667, initial-scale=1.0">
+    
+    <title>Piscine Magiline</title>
+   
+
+    
+    <!-- <link rel="stylesheet" href="/style.css"> -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    
+</head>
+<body>
+   
+        <div class="container">
+           
+            <nav>
+                <a href="#" class="nav-item is-active">ACCUEIL</a>
+
+                </a>
+                <a href="#" class="nav-item">A propos</a>
+           
+                <a href="#" class="nav-item">Blog</a>
+                <a href="#" class="nav-item">Contacts</a>
+                <span class="nav-indicator"></span>
+              </nav>
+        </div>
+    </header>
+   
+
+    <section class ="accueil"></section>
+        
+            
+            
+        
+            <h2>Bienvenue chez Piscines Magiline</h2><br>
+        
+            <p>Découvrez nos piscines haut de gamme adaptées à tous vos besoins parce que La piscine de demain doit être bien plus qu’un simple bassin. Elle doit être personnalisable pour s’adapter à votre environnement et vos envies. Elle est intelligente et connectée pour supprimer toutes les contraintes. Son eau reste limpide en toutes circonstances. Elle est super équipée pour chauffer, nettoyer, protéger ou éclairer.
+              
+ 
+
+                Elle doit être économique à l’usage, ECO responsable et évolutive. C’est cette vision de la piscine enterrée Premium qui nous a permis d’installer 50 000 piscines dans 34 pays depuis 1994.</p>
+            
+            <a href="#contact" class="cta-button"></a>
+        </div>
+    </section>
+
+    <section id="produits">
+        <br><br>
+        <div class="container">
+            
+            <h2>Nos Piscines</h2><br>
+            <div class="product">
+                <img src="https://www.piscines-magiline.fr/wp-content/uploads/2021/04/MAGILINE_GIFFEL_POOLS_03-scaled.jpg.webp" alt="Piscine Magiline 1"/><br><br>
+                <h3>Piscine Moderne</h3><br><br>
+                
+                <img src="https://www.piscines-magiline.fr/wp-content/uploads/2022/12/52389947761_109667f033_o-scaled.jpg.webp" alt="ouups"/>
+                
+                
+                <p>Piscine enterrée extérieure ou intérieure, piscine petite dimension ou extra large, formes carrés, rectangles ou arrondies, piscine à débordement, couloir de nage... nos piscines sont conçues sur mesure pour répondre à vos envies et vos contraintes, elles sont personnalisées pour rendre votre bassin unique. Les piscines Magiline sont conçues, fabriquées et distribuées dans un souci permanent d’innovation et une vraie exigence de qualité. Nos technologies brevetées pour la structure, la filtration, la solution d’automatisme et de gestion connectée sont la garantie de bénéficier d’une piscine nouvelle génération conçue pour la vie. Et avec le souci permanent de son utilisation au quotidien plus simple. Finies les contraintes, que du plaisir.</p>
+            </div>
+            <div class="product">
+                
+                <h3>Piscine Classique</h3><br>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/F6cqYbs0c-k?si=nSvo_bZoBXrlpJkf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br>
+                <p>Un design intemporel qui s'intègre parfaitement dans tout environnement.Pour Piscines Magiline, la piscine enterrée de demain doit être bien plus qu’un simple bassin, elle devient un vrai espace de vie. Elle est entièrement personnalisée avec sa structure modulable brevetée pour s’adapter à tout environnement. Elle assure une filtration parfaite de l’eau  grâce à son système de filtration à cartouche exclusif. La piscine est intelligente et connectée pour supprimer toutes les contraintes liées à son utilisation. Elle est ultra équipée avec ses fonctions bien-être Balnéo ou sport Nage à Contre-Courant. Son eau reste limpide en toutes circonstances grâce à ses appareils de traitement automatique de l’eau. Elle est parfaitement entretenue par son robot dernière génération, elle est chauffée avec sa pompe à chaleur ultra performante pour en bénéficier plus longtemps, elle est protégée par son volet ou son abri, elle est économique et éco-responsable.</p><br>
+            </div>
+            <!-- Ajoutez d'autres produits ici -->
+        </div>
+    </section>
+
+    <nav>
+
+        <a href="#">PISCINES</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#">EQUIPPEMENTS</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#">SPAS</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#">ENTRETIENT</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#">CONSEILS</a>
+        
+    </nav>
+           <p>
+           
+                <h3>Pour plus infos retrouver nous sur :</h3>
+           
+                   </h3><br><br>
+           </p>
+                
+            <!-- piscine par passion -->
+                </div>
+    </section>
+    
+    <p ></p>
+    
+    
+    <ul>
+      <li><p>Email : <a href="#">http://bluegarden.ci</a></p></li><br>
+      <li><p>Instagram : <a href="#">https://www.instagram.com/magiline_civ?igsh=MWN1ZDJmdDViY25saQ==</a></p></li><br><br>
+    </ul>
+    <p class="bleu" id="gros"></p>
+    <section id="contact">
+        <div class="container">
+            <h2>Contactez-Nous</h2><br>
+            <form action="envoyer-devis.php" method="post">
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom" required>
+
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Envoyer</button><br><br><br><br><br><br><br>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+      
+            <small>© Copyright Piscines Magiline 2021 - Tous droits réservés - Informations Légales.</small>
+        
+    </footer>
+</body>
+</html>
