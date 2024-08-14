@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panier d'achat</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .cart-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #4317e0;
+            border-radius: 5px;
+        }
+        .item-details {
+            display: flex;
+            align-items: center;
+        }
+        .item-details img {
+            width: 50px;
+            margin-right: 20px;
+        }
+        .item-quantity {
+            display: flex;
+            align-items: center;
+        }
+        .item-quantity button {
+            margin: 0 5px;
+        }
+        .item-actions {
+            display: flex;
+            align-items: center;
+        }
+        .heart {
+            cursor: pointer;
+            color: #dbdf0d;
+        }
+        .heart.liked {
+            color: red;
+        }
+        #total-price {
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Panier d'achat</h1>
+    <div id="cart-items">
+        <!-- Les articles du panier seront ajoutés ici -->
+    </div>
+    <p id="total-price">Total: 0FrancsCFA </p>
+
+    <script src="script.js"></script>
+</body>
+</html>
