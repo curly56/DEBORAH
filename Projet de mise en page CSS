@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doplaner Group</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo-container">
+            <img src="c:\Users\snafi\Music\Mise en page css\logo-default-group-en.svg" alt="Doplaner Group" class="logo">
+        </div>
+        <nav class="navigation">
+            <ul>
+                <li><a href="#home">A propos de nous</a></li>
+                <li><a href="#services">carrière</a></li>
+                <li><a href="#team">Département</a></li>
+                <li><a href="#contact">Contactez-nous</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Rendre l'expérience des soins de santé plus humaine</h1><br><br>
+            <p>Nous souhaitons que les patients trouvent le médecin idéal et prennent rendez-vous le plus facilement possible. Le parcours du patient doit être agréable, et c'est pourquoi nous sommes toujours à ses côtés : pour les aider à trouver les meilleurs soins possibles. À tout moment et en tout lieu.</p><br>
+             <p> Nous aidons également les médecins à mieux gérer leur cabinet et à bâtir leur réputation en ligne. Grâce à notre solution intégrée de bout en bout, les médecins peuvent non seulement améliorer leur présence en ligne, mais aussi consacrer leur temps à ce qui compte vraiment : leurs patients.</p><br>
+            <a href="#services" class="cta-button">Nos Services</a>
+        </div>
+    </section>
+
+    <section id="A propos" class="A propos">
+      <section id="services" class="services">
+        <h2>Nos Services</h2>
+        <div class="services-container">
+            <div class="service-card">
+                <h3>La plus grande plateforme de soins de santé au monde</h3>
+                <p>Nous travaillons à partir de 9 bureaux répartis dans le monde entier, donnant vie au groupe Docplanner dans 13 pays.</p>
+            </div>
+            <div class="service-card">
+                <h3>Améliorez la vie de millions de personnes. Changez la vôtre pour toujours.</h3>
+                <p>Plus de 2800 collaborateurs partagent notre vision, nos objectifs et notre passion. Avec des bureaux à Varsovie, Barcelone, Munich, Istanbul, Rome, Rio, Bologne, Mexico et Curitiba, notre recherche de talents ne s'arrête jamais.
+
+
+                  
+                  </p>
+            </div>
+            <div class="service-card">
+                <h3>260 000 médecins actifs</h3>
+                <p>Faites confiance à nos solutions</p>
+                <p>Cela vous intéresse ? Rejoignez-nous maintenant !</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="team" class="team">
+        <h2>carrière</h2>
+        <div class="team-container">
+            <div class="team-member">
+                <img src="https://www.docplanner.com/images/warsaw.png" alt="Membre de l'équipe">
+                <h3>VARSOVIE</h3>
+              
+            </div>
+            <div class="team-member">
+                <img src="https://www.docplanner.com/images/rome.png" alt="Membre de l'équipe">
+                <h3>ROME</h3>
+               
+            </div>
+            <div class="team-member">
+                <img src="https://www.docplanner.com/images/bogota.png" alt="Membre de l'équipe">
+                <h3>BOGOTA</h3>
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="team" class="team">
+      <h2>Département</h2>
+      
+      <div class="team-container">
+          <div class="team-member">
+              <img src="https://www.docplanner.com/favicon/favicon-32x32.png" alt="Membre de l'équipe">
+              <h3>Marketing et relations publiques</h3>
+              <p>Le marketing et les relations publiques dans Docplanner semblent uniques. Vous vous demandez pourquoi ? Parce que tous nos projets sont créés spécialement pour les médecins et aussi pour les patients.</p>
+          </div>
+          <div class="team-member">
+              <img src="c:\Users\snafi\Music\Mise en page css\logo-default-group-en.svg" alt="Membre de l'équipe">
+              <h3>Réussite client et ventes</h3>
+              <p>Nous sommes de véritables super-héros pour nos médecins.</p>
+              <p> Nous savons à quel point leur travail est difficile et nous essayons de leur offrir le meilleur produit qui organise le travail des médecins.</p>
+          </div>
+          <div class="team-member">
+              <img src="https://www.docplanner.com/images/testimonial-1.jpg" alt="Membre de l'équipe">
+              <h3>RH et plus</h3>
+       <p>Nous voulons rendre l'expérience de travail plus humaine. Vous voulez voir comment cela fonctionne.</p>
+              <p>CONTACTEZ-NOUS</p>
+          </div>
+      </div>
+  </section>
+
+
+    <section id="contact" class="contact">
+        <h2>Contactez-nous</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Nom" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Message" required></textarea>
+            <button type="submit" class="cta-button">Envoyer</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+      <div class="section__inner">
+        <p>Nous sommes leaders dans 13 pays:
+          <a href="https://www.znanylekarz.pl" target="_blank">Pologne</a>, 
+          <a href="https://www.doktortakvimi.com" target="_blank">Turquie</a>,
+          <a href="https://www.doctoralia.es" target="_blank">Espagne</a>,
+          <a href="https://www.miodottore.it" target="_blank">Italie</a>,
+          <a href="https://www.jameda.de" target="_blank">Allemagne</a>,
+          <a href="https://www.znamylekar.cz" target="_blank">Republique Tchèque</a>,
+          <a href="https://www.doctoralia.com.pt" target="_blank">Portugal</a>,
+          <a href="https://www.doctoralia.com.mx" target="_blank">Mexique</a>,
+          <a href="https://www.doctoralia.co" target="_blank">Colombie</a>,
+          <a href="https://www.doctoralia.com.br" target="_blank">Brésil</a>,
+          <a href="https://www.doctoraliar.com" target="_blank">Argentine</a>,
+          <a href="https://www.doctoralia.pe" target="_blank">Perou</a>
+          et le 
+          <a href="https://www.doctoralia.cl" target="_blank">Chili</a>
+        </p>
+        <p>&copy; www.docplanner.com © 2024.</p>
+        <div class="footer-logo">
+         
+          <a href="https://www.instagram.com/docplanner?igsh=MWx5NW8xd3cyODZsag==" target="_blank">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROlf2GkEtPk1w49L9mw1r1ERJRea7lAPMm6Q&s" alt="Instagram">
+        </a>
+        <a href="https://www.linkedin.com/company/docplannergroup/about/" target="_blank">
+          <img src="https://static.vecteezy.com/system/resources/previews/018/910/715/original/linkedin-logo-linkedin-symbol-linkedin-icon-free-free-vector.jpg" alt="LinkedIn">
+      </a>
+        </div>
+        
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
