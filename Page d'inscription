@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StreetMode</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+
+<!-- Header avec barre de navigation -->
+<header>
+    <div class="header-container">
+        <!-- Nom de la boutique -->
+        <h1 class="boutique-name">StreetMode</h1>
+        <!-- Menu de navigation -->
+        <nav>
+            <ul>
+                <li><a href="index.html"><i class="fas fa-home"></i>Accueil</a></li>
+                <li><a href="categories.html"><i class="fas fa-th"></i>Produits</a></li>
+                <li><a href="panier.html"><i class="fas fa-shopping-cart"></i>Panier</a></li>
+                <li><a href="contact.html"><i class="fas fa-envelope"></i>Contacts</a></li>
+                <li><a href="about.html"><i class="fas fa-info-circle"></i>À propos</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<!-- Section Accueil avec carrousel -->
+<section id="accueil">
+    <h1>Bienvenue chez StreeMode, votre destination mode pour un style unique et tendance. Explorez nos collections exclusives et trouvez les pièces qui vous ressemblent.</h1>
+    <div class="carousel">
+        <button id="prev"><i class="fas fa-chevron-left"></i></button>
+        <img src="https://cdn-img.prettylittlething.com/e/6/c/4/e6c4963ff4a214e8bb1bc6bd9bc17100b0a802c8_cni8673_5.jpg" class="carousel-image" alt="Image 1"><br><br>
+        <img src="https://s3-eu-west-1.amazonaws.com/megaimage/mega-lutrw7856-4.jpg" class="carousel-image" alt="oups">
+        <img src="https://m.media-amazon.com/images/I/513LbdcALAL._AC_UY1000_.jpg" class="carousel-image" alt="Image 3">
+        <button id="next"><i class="fas fa-chevron-right"></i></button>
+    </div>
+</section>
+
+<!-- Section Catégories de vêtements -->
+<section id="categories">
+    <center><h2>Catégories de vêtements</h2></center>
+    <div class="categories">
+        <div class="categorie">
+            <h3><i class="fas fa-female"></i> Femmes</h3>
+        </div>
+        <div class="categorie">
+            <h3><i class="fas fa-male"></i> Hommes</h3>
+        </div>
+        
+    
+        </h3>
+        </div>
+    </div>
+</section>
+
+<section id="filter">
+    <h2>Filtrer les produits</h2>
+    <form id="filter-form">
+        <!-- Filtrer par genre -->
+        <label for="genre">Genre :</label>
+        <select id="genre">
+            <option value="all">Tous</option>
+            <option value="hommes">Hommes</option>
+            <option value="femmes">Femmes</option>
+           
+        </select>
+
+        <!-- Filtrer par taille -->
+        <label for="size">Taille :</label>
+        <select id="size">
+            <option value="all">Toutes les tailles</option>
+            <option value="S">S</option>
+            <option value="M">M</option>
+            <option value="L">L</option>
+            <option value="L">XL</option>
+            <option value="L">XXL</option>
+        </select>
+
+        <!-- Filtrer par couleur -->
+        <label for="color">Couleur :</label>
+        <select id="color">
+            <option value="all">Toutes les couleurs</option>
+            <option value="red">Rouge</option>
+            <option value="blue">Bleu</option>
+            <option value="green">Vert</option>
+            <option value="black">Noir</option>
+            <option value="white">Blanc</option>
+            <option value="orange">Orange</option>
+            <option value="violet">Violet</option>
+            
+
+        </select>
+
+        <!-- Filtrer par prix en franc CFA -->
+        <label for="price">Prix (CFA) :</label>
+        <input type="range" id="price" min="1000" max="10000" step="100">
+        <span id="price-display">5000 CFA</span>
+
+        <button type="submit">Appliquer les filtres</button>
+    </form>
+</section>
+
+
+
+
+
+
+
+<section class="contact-section">
+    <h2>Contactez-nous</h2>
+    <form id="contact-form">
+        <input type="text" placeholder="Votre nom" required />
+        <input type="email" placeholder="Votre email" required />
+        <textarea rows="5" placeholder="Votre message" required></textarea>
+        <button type="submit">Envoyer</button>
+    </form>
+    <div class="message" id="response-message"></div>
+</section>
+
+<section id="inscription">
+    <div class="form-container">
+        <img src="c:\Users\snafi\Downloads\Streetmode1.jpg" alt="Logo de la Boutique" class="logo" />
+        <h2>Inscription</h2>
+        <form id="inscription-form">
+            <input type="text" placeholder="Nom" required />
+            <input type="email" placeholder="Email" required />
+            <input type="password" placeholder="Mot de passe" required />
+            <input type="password" placeholder="Confirmer le mot de passe" required />
+            <button type="submit">S'inscrire</button>
+        </form>
+    </div>
+</section>
+
+
+
+<!-- Section À propos -->
+<section id="a-propos">
+    <h2><i class="fas fa-info-circle"></i> </h2>
+    <p>
+
+        
+        StreetMode est une boutique en ligne dédiée à la mode urbaine qui allie confort et style. Elle propose une sélection soigneusement choisie de vêtements et d'accessoires inspirés par la culture de la rue, les tendances contemporaines et l'expression individuelle. </p>
+
+        <p>StreetMode : Mode, simplicité et élégance.</p>
+</section>
+</body>
+</html>
+<footer>
+    <div class="footer-content">
+        <div class="footer-section">
+            <h3>À propos</h3>
+            <ul>
+                <li><a href="about.html">Notre histoire</a></li> <!-- Lien mis à jour -->
+                <li><a href="about.html">Contactez-nous</a></li>
+                <li><a href="about.html">Conditions d'utilisation</a></li>
+                <li><a href="about.html">Politique de confidentialité</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Catégories</h3>
+            <ul>
+                <li><a href="men.html">Vêtements pour Hommes</a></li>
+                <li><a href="women.html">Vêtements pour Femmes</a></li>
+                <li><a href="kids.html">Vêtements pour Enfants</a></li>
+                <li><a href="accessories.html">Accessoires</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Suivez-nous</h3>
+            <div class="social-icons">
+                <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 StreeMode. Tous droits réservés.</p>
+        <p>Mode, simplicité et élégance.</p>
+    </div>
+</footer>
+
+
+
+<!-- JavaScript pour le carrousel -->
+<script src="script.js"></script>
+
+</body>
+</html>
